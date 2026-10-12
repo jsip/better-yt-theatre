@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Better YouTube Theatre",
+  "version": "1.0.0",
+  "description": "Makes YouTube theatre mode fill the whole browser window, like Twitch.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["theatre.css"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+html.byt-theatre {
+  scrollbar-width: none;
+}
+
+html.byt-theatre #page-manager {
+  margin-top: 0 !important;
+}
+
+html.byt-theatre #full-bleed-container {
+  height: 100vh !important;
+  max-height: none !important;
+  min-height: 0 !important;
+}
+
+html.byt-theatre:not(.byt-scrolled) ytd-app {
+  --ytd-masthead-height-accounting-for-hidden: 0px;
+}
+
+html.byt-theatre:not(.byt-scrolled) #masthead-container:not(:focus-within) {
+  transform: translateY(-100%);
+}
