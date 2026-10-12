@@ -23,4 +23,3 @@ Use theatre mode as usual: press `t` or click the theatre button in the player.
 ## License
 
 MIT
-# better-yt-theatre
